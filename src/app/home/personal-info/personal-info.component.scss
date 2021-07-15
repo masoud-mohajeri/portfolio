@@ -1,0 +1,83 @@
+.skill-detail {
+  margin: 0 auto;
+}
+
+.align-items-center {
+  display: flex;
+  align-items: flex-start;
+  ion-icon {
+    margin-right: 5px;
+  }
+}
+ion-item-divider {
+  margin-bottom: 15px;
+}
+.p-info-container {
+  display: flex;
+  // align-content: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  // border: 1px solid red;
+  width: 100%;
+  .p-info {
+    width: 50%;
+    height: 120px;
+    padding: 10px 15px;
+    text-align: right;
+    // border: 1px solid black;
+    display: inline-block;
+    // overflow: visible;
+    // * {
+    //   display: inline-block;
+    // }
+  }
+  @media (max-width: 550px) {
+    margin: 0 40px;
+    flex-direction: column;
+    align-content: flex-start;
+    .p-info {
+      width: 100%;
+      padding: 0 15px;
+      height: 93px;
+    }
+    p {
+      margin: 0;
+    }
+  }
+  @media (max-width: 330px) {
+    margin: 0 20px;
+  }
+  @media (min-width: 1200px) {
+    .p-info {
+      width: 30%;
+      // border: 1px solid rebeccapurple   ;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #2d2a2b;
+}
+.contact-body {
+  // display: flex;
+  .contact {
+    margin: 5px;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    h5 {
+      margin: 5px;
+    }
+  }
+}
+.learn-refs {
+  padding: 5px;
+  p {
+    padding: 0 0 0 43px;
+    line-height: 30px;
+    text-align: justify;
+  }
+}

@@ -1,0 +1,97 @@
+.phone {
+  display: block;
+  width: 375px;
+  height: 812px;
+  position: relative;
+  margin: 5px;
+  // transform: scale(0.95);
+
+  @media (max-width: 1700px) {
+    transform: scale(0.75);
+  }
+  @media (max-width: 800px) {
+    transform: scale(0.7);
+  }
+  @media (max-width: 400px) {
+    transform: scale(0.6);
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
+    //
+    border: 18px solid var(--ion-color-dark);
+    border-radius: 60px;
+    overflow: hidden;
+    //
+  }
+  .home-button {
+    position: absolute;
+    width: 34%;
+    height: 8px;
+    background-color: var(--ion-color-dark);
+    bottom: 20px;
+    left: 34%;
+    border-radius: 8px;
+    z-index: 10;
+  }
+  .power-button {
+    position: absolute;
+    width: 4px;
+    height: 74px;
+    background-color: var(--ion-color-dark);
+    top: 168px;
+    left: -2px;
+    border-radius: 4px;
+  }
+  .vol-down-button {
+    position: absolute;
+    width: 4px;
+    height: 45px;
+    background-color: var(--ion-color-dark);
+    top: 155px;
+    right: -2px;
+    border-radius: 4px;
+  }
+  .vol-up-button {
+    position: absolute;
+    width: 4px;
+    height: 45px;
+    background-color: var(--ion-color-dark);
+    top: 210px;
+    right: -2px;
+    border-radius: 4px;
+  }
+  .speaker-spot {
+    position: absolute;
+    width: 54%;
+    height: 18px;
+    background-color: var(--ion-color-dark);
+    top: 16px;
+    right: 23%;
+    border-radius: 0 0 9px 9px;
+  }
+  .speaker {
+    position: absolute;
+    width: 24%;
+    height: 6px;
+    background-color: var(--ion-color-medium);
+    top: 16px;
+    right: 38%;
+    border-radius: 6px;
+    z-index: 10;
+  }
+  .selfi-camera {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: var(--ion-color-medium);
+    top: 11px;
+    right: 32%;
+    border-radius: 20px;
+    z-index: 10;
+  }
+}
+ion-slides {
+  --scroll-bar-background: transparent;
+}

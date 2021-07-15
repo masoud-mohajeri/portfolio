@@ -1,0 +1,121 @@
+{
+  "skills": [
+    {
+      "title": "Front-end",
+      "detail": [
+        {
+          "name": "HTML",
+          "level": "مسلط",
+          "icon": "logo-html5",
+          "color": "warning"
+        },
+        {
+          "name": "Css",
+          "level": "مسلط",
+          "icon": "logo-css3",
+          "color": "primary"
+        },
+        {
+          "name": "Scss",
+          "level": "مسلط",
+          "icon": "logo-sass",
+          "color": "danger"
+        },
+        {
+          "name": "JavaScript",
+          "level": "مسلط",
+          "icon": "logo-javascript",
+          "color": "warning"
+        },
+        {
+          "name": "TypeScript",
+          "level": "مسلط",
+          "icon": "logo-javascript",
+          "color": "primary"
+        }
+      ]
+    },
+    {
+      "title": "JS Frameworks",
+      "detail": [
+        {
+          "name": "React",
+          "level": "متوسط",
+          "icon": "logo-react",
+          "color": "secondary"
+        },
+        {
+          "name": "Angular",
+          "level": "متوسط",
+          "icon": "logo-angular",
+          "color": "danger"
+        }
+      ]
+    },
+    {
+      "title": "Back-end",
+      "detail": [
+        {
+          "name": "Python",
+          "level": "متوسط",
+          "icon": "logo-python",
+          "color": "success"
+        },
+        {
+          "name": "Django",
+          "level": "مبتدی",
+          "icon": "logo-python",
+          "color": "success"
+        },
+
+        {
+          "name": "Postgresql",
+          "level": "مبتدی",
+          "icon": "server-outline",
+          "color": "secondary"
+        }
+      ]
+    },
+    {
+      "title": "Highlights",
+      "detail": [
+        {
+          "name": "Git",
+          "icon": "git-branch-outline",
+          "color": "danger"
+        },
+        {
+          "name": "Next.js",
+          "icon": "cloud-done-outline",
+          "color": "secondary"
+        },
+        {
+          "name": "PWA",
+          "icon": "phone-portrait-outline",
+          "color": "danger"
+        },
+        {
+          "name": "Redux,Recoil,...",
+          "icon": "bag-check-outline",
+          "color": "success"
+        },
+
+        {
+          "name": "React-Query",
+          "icon": "cloud-circle-outline",
+          "color": "primary"
+        },
+        {
+          "name": "Angular Universal",
+          "icon": "globe-outline",
+          "color": "danger"
+        },
+        {
+          "name": "Ionic, Material",
+          "icon": "logo-ionic",
+          "color": "primary"
+        }
+      ]
+    }
+  ]
+}

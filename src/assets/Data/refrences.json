@@ -1,0 +1,119 @@
+{
+  "refrences": [
+    {
+      "technologyName": "HTML",
+      "refrenceLink": "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+      "color": "warning"
+    },
+    {
+      "technologyName": "CSS",
+      "refrenceLink": "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+      "color": "primary"
+    },
+    {
+      "technologyName": "SCSS",
+      "refrenceLink": "https://www.udemy.com/course/css-the-complete-guide-incl-flexbox-grid-sass/",
+      "color": "danger"
+    },
+    {
+      "technologyName": "Javascript",
+      "refrenceLink": "https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/",
+      "color": "warning"
+    },
+    {
+      "technologyName": "Typescript",
+      "refrenceLink": "https://www.udemy.com/course/understanding-typescript/",
+      "color": "primary"
+    },
+    {
+      "technologyName": "Angular",
+      "refrenceLink": "https://www.udemy.com/course/the-complete-guide-to-angular-2/",
+      "color": "danger"
+    },
+    {
+      "technologyName": "React",
+      "refrenceLink": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+      "color": "tertiary"
+    },
+    {
+      "technologyName": "Next.js",
+      "refrenceLink": "https://www.udemy.com/course/nextjs-react-the-complete-guide/",
+      "color": "tertiary"
+    },
+    {
+      "technologyName": "Next.js",
+      "refrenceLink": "https://www.udemy.com/course/nextjs-dev-to-deployment/",
+      "color": "tertiary"
+    },
+    {
+      "technologyName": "Django",
+      "refrenceLink": "https://www.udemy.com/course/python-django-the-practical-guide/",
+      "color": "success"
+    },
+    {
+      "technologyName": "Ionic",
+      "refrenceLink": "https://www.udemy.com/course/ionic-2-the-practical-guide-to-building-ios-android-apps/",
+      "color": "primary"
+    },
+    {
+      "technologyName": "PWA",
+      "refrenceLink": "https://www.udemy.com/course/progressive-web-app-pwa-the-complete-guide/",
+      "color": "medium"
+    },
+    {
+      "technologyName": "Material Angular",
+      "refrenceLink": "https://www.udemy.com/course/angular-full-app-with-angular-material-angularfire-ngrx/",
+      "color": "danger"
+    },
+    {
+      "technologyName": "ES6",
+      "refrenceLink": "https://www.udemy.com/course/es6-bootcamp-next-generation-javascript/",
+      "color": "warning"
+    },
+    {
+      "technologyName": "Angular Universal",
+      "refrenceLink": "https://www.udemy.com/course/angular-universal-course/",
+      "color": "danger"
+    },
+    {
+      "technologyName": "OOP in JavaScript",
+      "refrenceLink": "https://www.udemy.com/course/javascript-object-oriented-programming/",
+      "color": "warning"
+    },
+    {
+      "technologyName": "Testing Angular",
+      "refrenceLink": "https://www.udemy.com/course/testing-angular-apps/",
+      "color": "danger"
+    },
+    {
+      "technologyName": "Git",
+      "refrenceLink": "https://codewithmosh.com/p/the-ultimate-git-course",
+      "color": "medium"
+    },
+    {
+      "technologyName": "Django",
+      "refrenceLink": "https://www.udemy.com/course/python-django-dev-to-deployment/",
+      "color": "success"
+    },
+    {
+      "technologyName": "SQL",
+      "refrenceLink": "https://codewithmosh.com/p/complete-sql-mastery",
+      "color": "primary"
+    },
+    {
+      "technologyName": "Design Patterns",
+      "refrenceLink": "https://codewithmosh.com/p/design-patterns",
+      "color": "tertiary"
+    },
+    {
+      "technologyName": "React.js",
+      "refrenceLink": "https://www.udemy.com/course/complete-react-developer-zero-to-mastery/",
+      "color": "secondary"
+    },
+    {
+      "technologyName": "Angular",
+      "refrenceLink": "https://codewithmosh.com/p/angular-master-class",
+      "color": "danger"
+    }
+  ]
+}

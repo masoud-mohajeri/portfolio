@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "mohajeri-portfolio": {
+      "hosting": {
+        "app": [
+          "mohajeri-portfolio"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "mohajeri-portfolio"
+  }
+}
