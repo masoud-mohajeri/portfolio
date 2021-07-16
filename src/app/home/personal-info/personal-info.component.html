@@ -2,109 +2,110 @@
   <ion-grid fixed>
     <ion-row>
       <ion-col size="12">
-        <ion-list lines="none">
-          <div class="avatar">
-            <!-- <img src="../../../assets/icon/favicon.png" alt="" /> -->
-          </div>
-          <ion-list-header>
-            <ion-text color="dark">
-              <h1>مسعود مهاجری</h1>
-              <h5>برنامه نویس فرانت</h5>
-            </ion-text>
-          </ion-list-header>
+        <!-- <ion-list lines="none"> -->
+        <div class="avatar">
+          <!-- <img src="../../../assets/icon/favicon.png" alt="" /> -->
+        </div>
+        <ion-list-header>
+          <ion-text color="dark">
+            <h1>مسعود مهاجری</h1>
+            <h5>برنامه نویس فرانت</h5>
+          </ion-text>
+        </ion-list-header>
 
-          <div class="p-info-container">
-            <div class="p-info">
-              <h3>تحصیلات</h3>
-              <p>👈 کارشناسی نقشه برداری - دانشگاه تهران</p>
-            </div>
-            <div class="p-info">
-              <h3>زبان انگلیسی</h3>
-              <p>👈 پیشرفته</p>
-            </div>
-            <div class="p-info">
-              <h3>وضعیت پایان خدمت</h3>
-              <p>👈 معافیت تحصیلی</p>
-            </div>
-            <div class="p-info">
-              <h3>صفحه گیت هاب</h3>
-              <a target="_blank" href="https://github.com/mohajerimasoud"
-                >👈 Github</a
-              >
-            </div>
-            <div class="p-info">
-              <h2>دانلود رزومه</h2>
+        <div class="p-info-container">
+          <div class="p-info">
+            <h3>تحصیلات</h3>
+            <p>👈 کارشناسی نقشه برداری - دانشگاه تهران</p>
+          </div>
+          <div class="p-info">
+            <h3>زبان انگلیسی</h3>
+            <p>👈 پیشرفته</p>
+          </div>
+          <div class="p-info">
+            <h3>وضعیت پایان خدمت</h3>
+            <p>👈 معافیت تحصیلی</p>
+          </div>
+          <div class="p-info">
+            <h3>صفحه گیت هاب</h3>
+            <a target="_blank" href="https://github.com/mohajerimasoud"
+              >👈 Github</a
+            >
+          </div>
+          <div class="p-info">
+            <h2>دانلود رزومه</h2>
+            <a
+              target="_blank"
+              download="resume"
+              href="https://drive.google.com/file/d/1Ld7HQz5kYN_u9niMlLuY-7CnusNaTAf9/view?usp=sharing"
+              >👈 دانلود</a
+            >
+          </div>
+          <div class="p-info">
+            <h3>علاقه مندی ها</h3>
+            <p>👈 علاقه مند به حل چالش ، معما و یادگیری</p>
+          </div>
+
+          <div class="learn-refs">
+            <h2>درباره من</h2>
+            <p>
+              من یک برنامه نویس خودآموز هستم . شروع برنامه نوسی وب برای من از سر
+              علاقه به بودن در جریان رشد و توسعه تکنولوژی بوده و امیدوارم روزی
+              بتوانم بخشی از این توسعه باشم . لذت یادگیری برای من همواره در
+              کنکاش کردن و آزمون و خطا کردن در VSCode بوده ، هرچند گذراندن کورس
+              های زیر هم راهنمایی و کمک های خوبی برای من بودند . (با کلیک بر روی
+              هرکدام از آموزش ها میتوانید صفحه یودمی آن را ببینید )
+              <br />
+            </p>
+            <ng-container *ngFor="let ref of refrences">
+              <a [href]="ref.refrenceLink" target="_blanck">
+                <ion-chip [color]="ref.color" class="ion-margin-start">
+                  <ion-avatar>
+                    <img src="../../../assets/Images/udemy.png" />
+                  </ion-avatar>
+                  <ion-label>{{ ref.technologyName }}</ion-label>
+                </ion-chip>
+              </a>
+            </ng-container>
+            <!-- <h5>تجربه های شخصی</h5> -->
+            <p>
+              همانطور که تولید و توسعه هرگز متوقف نمیشود ، یادگیری هم پایانی
+              ندارد . علاقه مندم که وقتی را به گشتن در توییت های افراد و شرکت
+              های معروف اختصاص دهم تا با ایده ها و چالش های روز تکنولوژی آشنا
+              شوم .
+            </p>
+            <p>
+              علاقه مند به چالش های جاوااسکریپتی و وسواس در جزئیات برای رسیدن به
+              نتیجه ی مطلوب و همچنین علاقه مند به عمیق شدن در مباحث توسعه فرانت
+              .
+            </p>
+            <h2>ارتبات با من</h2>
+            <div class="contact-body">
               <a
+                class="contact"
+                href="https://t.me/mohajerimasoud"
                 target="_blank"
-                download="resume"
-                href="https://drive.google.com/file/d/1Ld7HQz5kYN_u9niMlLuY-7CnusNaTAf9/view?usp=sharing"
-                >👈 دانلود</a
               >
-            </div>
-            <div class="p-info">
-              <h3>علاقه مندی ها</h3>
-              <p>👈 علاقه مند به حل چالش ، معما و یادگیری</p>
-            </div>
+                <ion-icon
+                  name="navigate-circle"
+                  size="large"
+                  color="primary"
+                ></ion-icon>
 
-            <div class="learn-refs">
-              <h2>درباره من</h2>
-              <p>
-                من یک برنامه نویس خودآموز هستم . شروع برنامه نوسی وب برای من از
-                سر علاقه به بودن در جریان رشد و توسعه تکنولوژی بوده و امیدوارم
-                روزی بتوانم بخشی از این توسعه باشم . لذت یادگیری برای من همواره
-                در کنکاش کردن و آزمون و خطا کردن در VSCode بوده ، هرچند گذراندن
-                کورس های زیر هم راهنمایی و کمک های خوبی برای من بودند .
-                <br />
-              </p>
-              <ng-container *ngFor="let ref of refrences">
-                <a [href]="ref.refrenceLink" target="_blanck">
-                  <ion-chip [color]="ref.color" class="ion-margin-start">
-                    <ion-avatar>
-                      <img src="../../../assets/Images/udemy.png" />
-                    </ion-avatar>
-                    <ion-label>{{ ref.technologyName }}</ion-label>
-                  </ion-chip>
-                </a>
-              </ng-container>
-              <!-- <h5>تجربه های شخصی</h5> -->
-              <p>
-                همانطور که تولید و توسعه هرگز متوقف نمیشود ، یادگیری هم پایانی
-                ندارد . علاقه مندم که وقتی را به گشتن در توییت های افراد و شرکت
-                های معروف اختصاص دهم تا با ایده ها و چالش های روز تکنولوژی آشنا
-                شوم .
-              </p>
-              <p>
-                علاقه مند به چالش های جاوااسکریپتی و وسواس در جزئیات برای رسیدن
-                به نتیجه ی مطلوب و همچنین علاقه مند به عمیق شدن در مباحث توسعه
-                فرانت .
-              </p>
-              <h2>ارتبات با من</h2>
-              <div class="contact-body">
-                <a
-                  class="contact"
-                  href="https://t.me/mohajerimasoud"
-                  target="_blank"
-                >
-                  <ion-icon
-                    name="navigate-circle"
-                    size="large"
-                    color="primary"
-                  ></ion-icon>
-
-                  <h5>Telegram</h5>
-                </a>
-                <a class="contact" href="tel:+989198639256" target="_blank">
-                  <ion-icon
-                    name="call-outline"
-                    size="large"
-                    color="danger"
-                  ></ion-icon>
-                  <h5>09198639256</h5>
-                </a>
-              </div>
+                <h5>Telegram</h5>
+              </a>
+              <a class="contact" href="tel:+989198639256" target="_blank">
+                <ion-icon
+                  name="call-outline"
+                  size="large"
+                  color="danger"
+                ></ion-icon>
+                <h5>09198639256</h5>
+              </a>
             </div>
           </div>
-        </ion-list>
+        </div>
+        <!-- </ion-list> -->
       </ion-col>
     </ion-row>
     <!-- <ion-grid fixed style="border: 1px solid red"> -->

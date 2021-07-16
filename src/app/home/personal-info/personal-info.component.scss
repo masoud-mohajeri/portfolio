@@ -32,7 +32,7 @@ ion-item-divider {
     // }
   }
   @media (max-width: 550px) {
-    margin: 0 40px;
+    margin: 0 5px 0 0;
     flex-direction: column;
     align-content: flex-start;
     .p-info {
@@ -74,9 +74,9 @@ a {
   }
 }
 .learn-refs {
-  padding: 5px;
+  padding: 5px 5px 5px 16px;
   p {
-    padding: 0 0 0 43px;
+    padding: 0 3px;
     line-height: 30px;
     text-align: justify;
   }
