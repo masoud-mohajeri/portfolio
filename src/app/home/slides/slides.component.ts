@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { IonSlides } from '@ionic/angular';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -7,6 +8,8 @@ import { Subscription } from 'rxjs';
   styleUrls: ['./slides.component.scss'],
 })
 export class SlidesComponent implements OnInit {
+  @ViewChild('slides') slides: IonSlides;
+
   size: Subscription;
   slideOpts: any = {
     breakpoints: {
@@ -28,5 +31,14 @@ export class SlidesComponent implements OnInit {
   };
 
   constructor() {}
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(this.slides);
+  }
+  nextSlide() {
+    this.slides.slideNext();
+  }
+
+  prevSlide() {
+    this.slides.slidePrev();
+  }
 }

@@ -6,77 +6,105 @@
     </ion-col>
   </ion-row>
 </ion-grid>
-<ion-slides mode="ios" pager="ios" scrollbar="ios" [options]="slideOpts">
-  <ion-slide>
-    <div class="phone">
-      <iframe
-        src="https://masoud-book-shop.web.app/home"
-        frameborder="0"
-      ></iframe>
-      <div class="home-button"></div>
-      <div class="power-button"></div>
-      <div class="vol-down-button"></div>
-      <div class="vol-up-button"></div>
-      <div class="speaker-spot"></div>
-      <div class="speaker"></div>
-      <div class="selfi-camera"></div>
-    </div>
-  </ion-slide>
-  <ion-slide>
-    <div class="phone">
-      <iframe
-        src="https://react-ecommerce-a7139.web.app/"
-        frameborder="0"
-      ></iframe>
-      <div class="home-button"></div>
-      <div class="power-button"></div>
-      <div class="vol-down-button"></div>
-      <div class="vol-up-button"></div>
-      <div class="speaker-spot"></div>
-      <div class="speaker"></div>
-      <div class="selfi-camera"></div>
-    </div>
-  </ion-slide>
-  <ion-slide>
-    <div class="phone">
-      <iframe src="https://masoud-pwa.web.app/" frameborder="0"></iframe>
-      <div class="home-button"></div>
-      <div class="power-button"></div>
-      <div class="vol-down-button"></div>
-      <div class="vol-up-button"></div>
-      <div class="speaker-spot"></div>
-      <div class="speaker"></div>
-      <div class="selfi-camera"></div>
-    </div>
-  </ion-slide>
-  <ion-slide>
-    <div class="phone">
-      <iframe
-        src="https://twitter-clone-64099.web.app/tabs/tab1"
-        frameborder="0"
-      ></iframe>
-      <div class="home-button"></div>
-      <div class="power-button"></div>
-      <div class="vol-down-button"></div>
-      <div class="vol-up-button"></div>
-      <div class="speaker-spot"></div>
-      <div class="speaker"></div>
-      <div class="selfi-camera"></div>
-    </div>
-  </ion-slide>
-  <ion-slide>
-    <div class="phone">
-      <iframe
-        src="https://netflix-clone-4da93.web.app/tabs/tab1"
-        frameborder="0"
-      ></iframe>
-      <div class="home-button"></div>
-      <div class="power-button"></div>
-      <div class="vol-down-button"></div>
-      <div class="vol-up-button"></div>
-      <div class="speaker-spot"></div>
-      <div class="speaker"></div>
-      <div class="selfi-camera"></div>
-    </div>
-  </ion-slide>
-</ion-slides>
+<div class="slides-container">
+  <ion-button
+    class="hide-button"
+    slot="icon-only"
+    fill="clear"
+    (click)="nextSlide()"
+  >
+    <ion-icon
+      name="chevron-forward-outline"
+      size="large"
+      color="primary"
+    ></ion-icon>
+  </ion-button>
+
+  <ion-slides #slides [options]="slideOpts">
+    <ion-slide>
+      <div class="phone">
+        <iframe
+          src="https://masoud-book-shop.web.app/home"
+          frameborder="0"
+        ></iframe>
+        <div class="home-button"></div>
+        <div class="power-button"></div>
+        <div class="vol-down-button"></div>
+        <div class="vol-up-button"></div>
+        <div class="speaker-spot"></div>
+        <div class="speaker"></div>
+        <div class="selfi-camera"></div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="phone">
+        <iframe
+          src="https://react-ecommerce-a7139.web.app/"
+          frameborder="0"
+        ></iframe>
+        <div class="home-button"></div>
+        <div class="power-button"></div>
+        <div class="vol-down-button"></div>
+        <div class="vol-up-button"></div>
+        <div class="speaker-spot"></div>
+        <div class="speaker"></div>
+        <div class="selfi-camera"></div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="phone">
+        <iframe src="https://masoud-pwa.web.app/" frameborder="0"></iframe>
+        <div class="home-button"></div>
+        <div class="power-button"></div>
+        <div class="vol-down-button"></div>
+        <div class="vol-up-button"></div>
+        <div class="speaker-spot"></div>
+        <div class="speaker"></div>
+        <div class="selfi-camera"></div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="phone">
+        <iframe
+          src="https://twitter-clone-64099.web.app/tabs/tab1"
+          frameborder="0"
+        ></iframe>
+        <div class="home-button"></div>
+        <div class="power-button"></div>
+        <div class="vol-down-button"></div>
+        <div class="vol-up-button"></div>
+        <div class="speaker-spot"></div>
+        <div class="speaker"></div>
+        <div class="selfi-camera"></div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="phone">
+        <iframe
+          src="https://netflix-clone-4da93.web.app/tabs/tab1"
+          frameborder="0"
+        ></iframe>
+        <div class="home-button"></div>
+        <div class="power-button"></div>
+        <div class="vol-down-button"></div>
+        <div class="vol-up-button"></div>
+        <div class="speaker-spot"></div>
+        <div class="speaker"></div>
+        <div class="selfi-camera"></div>
+      </div>
+    </ion-slide>
+  </ion-slides>
+
+  <ion-button
+    class="hide-button"
+    slot="icon-only"
+    fill="clear"
+    (click)="prevSlide()"
+  >
+    <ion-icon
+      name="chevron-back-outline"
+      size="large"
+      color="primary"
+    ></ion-icon>
+  </ion-button>
+</div>

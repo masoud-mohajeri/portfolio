@@ -114,6 +114,21 @@
       "technologyName": "Angular",
       "refrenceLink": "https://codewithmosh.com/p/angular-master-class",
       "color": "danger"
+    },
+    {
+      "technologyName": "JavaScript Algorithms and Data Structures",
+      "refrenceLink": "https://github.com/trekhleb/javascript-algorithms",
+      "color": "warning"
+    },
+    {
+      "technologyName": "Javascript Design Patterns",
+      "refrenceLink": "https://github.com/sohamkamani/javascript-design-patterns-for-humans",
+      "color": "warning"
+    },
+    {
+      "technologyName": "React Testing Library ",
+      "refrenceLink": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ",
+      "color": "secondary"
     }
   ]
 }
