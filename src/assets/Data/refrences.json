@@ -45,11 +45,7 @@
       "refrenceLink": "https://www.udemy.com/course/nextjs-dev-to-deployment/",
       "color": "tertiary"
     },
-    {
-      "technologyName": "Django",
-      "refrenceLink": "https://www.udemy.com/course/python-django-the-practical-guide/",
-      "color": "success"
-    },
+
     {
       "technologyName": "Ionic",
       "refrenceLink": "https://www.udemy.com/course/ionic-2-the-practical-guide-to-building-ios-android-apps/",
@@ -90,11 +86,7 @@
       "refrenceLink": "https://codewithmosh.com/p/the-ultimate-git-course",
       "color": "medium"
     },
-    {
-      "technologyName": "Django",
-      "refrenceLink": "https://www.udemy.com/course/python-django-dev-to-deployment/",
-      "color": "success"
-    },
+
     {
       "technologyName": "SQL",
       "refrenceLink": "https://codewithmosh.com/p/complete-sql-mastery",
@@ -129,6 +121,31 @@
       "technologyName": "React Testing Library ",
       "refrenceLink": "https://www.youtube.com/playlist?list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ",
       "color": "secondary"
+    },
+    {
+      "technologyName": "Vue ",
+      "refrenceLink": "https://www.udemy.com/course/build-web-apps-with-vuejs-firebase/",
+      "color": "success"
+    },
+    {
+      "technologyName": "Vue ",
+      "refrenceLink": "https://www.udemy.com/course/vuejs-2-the-complete-guide/",
+      "color": "success"
+    },
+    {
+      "technologyName": "Nuxt.js ",
+      "refrenceLink": "https://www.udemy.com/course/nuxtjs-vuejs-on-steroids/",
+      "color": "success"
+    },
+    {
+      "technologyName": "Node.js ",
+      "refrenceLink": "https://www.udemy.com/course/nodejs-the-complete-guide/",
+      "color": "success"
+    },
+    {
+      "technologyName": "Git & Github ",
+      "refrenceLink": "https://www.udemy.com/course/git-github-practical-guide/",
+      "color": "medium"
     }
   ]
 }

@@ -5,13 +5,13 @@
       "detail": [
         {
           "name": "HTML",
-          "level": "مسلط",
+          "level": "پیشرفته",
           "icon": "logo-html5",
           "color": "warning"
         },
         {
           "name": "Css",
-          "level": "مسلط",
+          "level": "پیشرفته",
           "icon": "logo-css3",
           "color": "primary"
         },
@@ -23,7 +23,7 @@
         },
         {
           "name": "JavaScript",
-          "level": "مسلط",
+          "level": "پیشرفته",
           "icon": "logo-javascript",
           "color": "warning"
         },
@@ -40,13 +40,19 @@
       "detail": [
         {
           "name": "React",
-          "level": "متوسط",
+          "level": "مسلط",
           "icon": "logo-react",
           "color": "secondary"
         },
         {
+          "name": "Vue",
+          "level": "مسلط",
+          "icon": "logo-vue",
+          "color": "success"
+        },
+        {
           "name": "Angular",
-          "level": "متوسط",
+          "level": "مسلط",
           "icon": "logo-angular",
           "color": "danger"
         }
@@ -56,20 +62,20 @@
       "title": "Back-end",
       "detail": [
         {
-          "name": "Python",
-          "level": "متوسط",
-          "icon": "logo-python",
+          "name": "Node.js",
+          "level": "مبتدی",
+          "icon": "logo-nodejs",
           "color": "success"
         },
         {
-          "name": "Django",
+          "name": "express",
           "level": "مبتدی",
-          "icon": "logo-python",
+          "icon": "logo-nodejs",
           "color": "success"
         },
 
         {
-          "name": "Postgresql",
+          "name": "My SQL",
           "level": "مبتدی",
           "icon": "server-outline",
           "color": "secondary"
@@ -88,6 +94,11 @@
           "name": "Next.js",
           "icon": "cloud-done-outline",
           "color": "secondary"
+        },
+        {
+          "name": "Nuxt.js",
+          "icon": "prism-outline",
+          "color": "success"
         },
         {
           "name": "PWA",

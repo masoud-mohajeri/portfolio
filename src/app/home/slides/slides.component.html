@@ -2,7 +2,45 @@
   <ion-row>
     <ion-col size="12">
       <h2>نمونه کار ها</h2>
-      <h5>✨ ورق بزنید ( لینک هر سایت در ریپازتوری گیت هاب)</h5>
+      <ion-list lines="none">
+        <ion-list-header>
+          <h4>لینک ها</h4>
+        </ion-list-header>
+        <ion-item>
+          <ion-label>
+            <a
+              href="https://react-ecommerce-a7139.web.app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              👈 React Book shop
+            </a>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <a
+              href="https://vue-ecommerce-32f4d.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              👈 Vue Book shop
+            </a>
+          </ion-label>
+        </ion-item>
+        <ion-item>
+          <ion-label>
+            <a
+              href="https://masoud-book-shop.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              👈 Angular Book shop
+            </a>
+          </ion-label>
+        </ion-item>
+      </ion-list>
+      <h5>✨ پیش نمایش ( ورق بزنید)</h5>
     </ion-col>
   </ion-row>
 </ion-grid>
@@ -11,7 +49,7 @@
     class="hide-button"
     slot="icon-only"
     fill="clear"
-    (click)="nextSlide()"
+    (click)="prevSlide()"
   >
     <ion-icon
       name="chevron-forward-outline"
@@ -40,6 +78,21 @@
       <div class="phone">
         <iframe
           src="https://react-ecommerce-a7139.web.app/"
+          frameborder="0"
+        ></iframe>
+        <div class="home-button"></div>
+        <div class="power-button"></div>
+        <div class="vol-down-button"></div>
+        <div class="vol-up-button"></div>
+        <div class="speaker-spot"></div>
+        <div class="speaker"></div>
+        <div class="selfi-camera"></div>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="phone">
+        <iframe
+          src="https://vue-ecommerce-32f4d.web.app"
           frameborder="0"
         ></iframe>
         <div class="home-button"></div>
@@ -114,7 +167,7 @@
     class="hide-button"
     slot="icon-only"
     fill="clear"
-    (click)="prevSlide()"
+    (click)="nextSlide()"
   >
     <ion-icon
       name="chevron-back-outline"
