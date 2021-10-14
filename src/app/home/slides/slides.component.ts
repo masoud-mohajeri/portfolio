@@ -32,7 +32,7 @@ export class SlidesComponent implements OnInit {
 
   constructor() {}
   ngOnInit() {
-    console.log(this.slides);
+    // console.log(this.slides);
   }
   nextSlide() {
     this.slides.slideNext();

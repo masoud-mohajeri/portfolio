@@ -69,10 +69,10 @@
             <ng-container *ngFor="let ref of refrences">
               <a [href]="ref.refrenceLink" target="_blanck">
                 <ion-chip [color]="ref.color" class="ion-margin-start">
-                  <ion-avatar>
-                    <img src="../../../assets/Images/udemy.png" />
-                  </ion-avatar>
-                  <ion-label>{{ ref.technologyName }}</ion-label>
+                  <!-- <ion-avatar>
+                  <img src="../../../assets/Images/udemy.png" />
+                  </ion-avatar> -->
+                  <ion-label class="font">{{ ref.technologyName }}</ion-label>
                 </ion-chip>
               </a>
             </ng-container>
@@ -95,21 +95,23 @@
                 href="https://t.me/mohajerimasoud"
                 target="_blank"
               >
-                <ion-icon
+                <!-- <ion-icon
                   name="navigate-circle"
                   size="large"
                   color="primary"
-                ></ion-icon>
+                ></ion-icon> -->
+                <ion-icon name="link-outline" size="large"></ion-icon>
 
-                <h5>Telegram</h5>
+                <h5 class="font">Telegram</h5>
               </a>
               <a class="contact" href="tel:+989911096052" target="_blank">
-                <ion-icon
+                <!-- <ion-icon
                   name="call-outline"
                   size="large"
                   color="danger"
-                ></ion-icon>
-                <h5>09911096052</h5>
+                ></ion-icon> -->
+                <ion-icon name="link-outline" size="large"></ion-icon>
+                <h5 class="font">09911096052</h5>
               </a>
             </div>
           </div>
@@ -131,7 +133,7 @@
             <ion-grid fixed style="direction: ltr">
               <ng-container *ngFor="let skill of skills">
                 <ion-item-divider mode="md">
-                  <h5>{{ skill.title }}</h5>
+                  <h5 class="font">{{ skill.title }}</h5>
                 </ion-item-divider>
                 <ng-container *ngFor="let detail of skill.detail">
                   <ion-row>
